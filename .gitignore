@@ -1,0 +1,15 @@
+node_modules/
+Thumbs.db
+test*.png
+render*.png
+temp*.svg
+*clean.svg
+diag*.js
+test*.js
+check*.js
+compare*.js
+diff*.js
+find*.js
+trace*.js
+inspect*.js
+show*.js
