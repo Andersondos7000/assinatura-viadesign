@@ -64,12 +64,12 @@ Assinatura-email/
 ├── slices/                       # Recortes precisos PNG de cada zona clicável
 │   ├── slice_address.png         # Barra inferior de endereço (568x33px)
 │   ├── slice_avatar_*.png        # Fotos circulares individuais (148x152px)
-│   ├── slice_name_*.png          # Nome e cargo individuais (232x57px)
-│   ├── slice_wa_*.png            # Linha WhatsApp individual (232x32px)
-│   ├── slice_fb.png              # Linha Facebook (232x31px)
-│   ├── slice_ig.png              # Linha Instagram (232x32px)
-│   ├── slice_logo.png            # Logo Via Design (188x88px)
-│   └── slice_phone.png           # Telefone fixo 3305-8370 (188x64px)
+│   ├── slice_name_*.png          # Nome e cargo individuais (260x57px)
+│   ├── slice_wa_*.png            # Linha WhatsApp individual (260x32px)
+│   ├── slice_fb.png              # Linha Facebook (260x31px)
+│   ├── slice_ig.png              # Linha Instagram (260x32px)
+│   ├── slice_logo_*.png          # Logo Via Design individual limpo sem invasão de texto (160x88px)
+│   └── slice_phone.png           # Telefone fixo 3305-8370 (160x64px)
 ├── index.html                    # Central de assinaturas (hospedada no GitHub Pages)
 ├── central-assinaturas.html      # Cópia da central de assinaturas
 ├── assinatura-anderson.html      # Página individual Anderson Araújo
