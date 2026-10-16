@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Central de Assinaturas de E-mail - Via Design</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #f1f5f9;
+      padding: 30px 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #0f172a;
+    }
+    .container {
+      max-width: 630px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .header h1 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+    }
+    .header p {
+      font-size: 14px;
+      color: #64748b;
+      margin-top: 6px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      border: 1px solid #e2e8f0;
+    }
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .card-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .btn {
+      background: #e51920;
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: #c40a0a; }
+    .sig-wrapper {
+      width: 568px;
+      height: 185px;
+      display: block;
+      margin: 0 auto;
+    }
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #16a34a;
+      color: #ffffff;
+      padding: 12px 22px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      display: none;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Central de Assinaturas de E-mail</h1>
+      <p>Clique em <strong>Copiar</strong> e cole (Ctrl+V) nas configurações de assinatura do seu Gmail.</p>
+    </div>
+
+    
+    <div class="card">
+      <div class="card-top">
+        <span class="card-name">ANDERSON ARAÚJO</span>
+        <button class="btn" onclick="copySig('anderson')">📋 Copiar Assinatura</button>
+      </div>
+      <div class="sig-wrapper" id="sig-anderson">
+        <table cellpadding="0" cellspacing="0" border="0" style="width: 568px; max-width: 568px; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+          <tr>
+            <td style="padding: 0; line-height: 0; font-size: 0;">
+              <a href="https://wa.me/5518991604609" target="_blank" style="text-decoration: none; display: block; border: 0;" title="Falar com ANDERSON ARAÚJO no WhatsApp">
+                <img src="https://andersondos7000.github.io/assinatura-viadesign/assinatura-anderson.png" width="568" height="185" alt="Assinatura ANDERSON ARAÚJO - Via Design" border="0" style="width: 568px; max-width: 568px; height: 185px; display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-top">
+        <span class="card-name">DANIEL SANTANA</span>
+        <button class="btn" onclick="copySig('daniel')">📋 Copiar Assinatura</button>
+      </div>
+      <div class="sig-wrapper" id="sig-daniel">
+        <table cellpadding="0" cellspacing="0" border="0" style="width: 568px; max-width: 568px; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+          <tr>
+            <td style="padding: 0; line-height: 0; font-size: 0;">
+              <a href="https://wa.me/5518988017190" target="_blank" style="text-decoration: none; display: block; border: 0;" title="Falar com DANIEL SANTANA no WhatsApp">
+                <img src="https://andersondos7000.github.io/assinatura-viadesign/assinatura-daniel.png" width="568" height="185" alt="Assinatura DANIEL SANTANA - Via Design" border="0" style="width: 568px; max-width: 568px; height: 185px; display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-top">
+        <span class="card-name">FERNANDES CESAR</span>
+        <button class="btn" onclick="copySig('fernandes')">📋 Copiar Assinatura</button>
+      </div>
+      <div class="sig-wrapper" id="sig-fernandes">
+        <table cellpadding="0" cellspacing="0" border="0" style="width: 568px; max-width: 568px; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+          <tr>
+            <td style="padding: 0; line-height: 0; font-size: 0;">
+              <a href="https://wa.me/5518997442528" target="_blank" style="text-decoration: none; display: block; border: 0;" title="Falar com FERNANDES CESAR no WhatsApp">
+                <img src="https://andersondos7000.github.io/assinatura-viadesign/assinatura-fernandes.png" width="568" height="185" alt="Assinatura FERNANDES CESAR - Via Design" border="0" style="width: 568px; max-width: 568px; height: 185px; display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-top">
+        <span class="card-name">TIAGO BANSI</span>
+        <button class="btn" onclick="copySig('tiago')">📋 Copiar Assinatura</button>
+      </div>
+      <div class="sig-wrapper" id="sig-tiago">
+        <table cellpadding="0" cellspacing="0" border="0" style="width: 568px; max-width: 568px; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+          <tr>
+            <td style="padding: 0; line-height: 0; font-size: 0;">
+              <a href="https://wa.me/5518996312442" target="_blank" style="text-decoration: none; display: block; border: 0;" title="Falar com TIAGO BANSI no WhatsApp">
+                <img src="https://andersondos7000.github.io/assinatura-viadesign/assinatura-tiago.png" width="568" height="185" alt="Assinatura TIAGO BANSI - Via Design" border="0" style="width: 568px; max-width: 568px; height: 185px; display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast">✓ Assinatura copiada! Cole no Gmail (Ctrl+V).</div>
+
+  <script>
+    function copySig(key) {
+      const el = document.getElementById('sig-' + key);
+      const range = document.createRange();
+      range.selectNode(el);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+      try {
+        document.execCommand('copy');
+        const t = document.getElementById('toast');
+        t.style.display = 'block';
+        setTimeout(() => { t.style.display = 'none'; }, 3000);
+      } catch (e) {
+        alert('Selecione a imagem com o mouse e aperte Ctrl+C.');
+      }
+      window.getSelection().removeAllRanges();
+    }
+  </script>
+</body>
+</html>
